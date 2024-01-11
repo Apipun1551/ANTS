@@ -10,6 +10,9 @@ body {
     background-color: var(---primary);
 }
 
+
+/* Navbar */
+
 .nav-link {
     font-size: 18px;
     color: white!important;
@@ -19,3 +22,24 @@ body {
 .nav-link.active {
     font-weight: 700;
 }
+
+
+/* Navbar end */
+
+
+/* Button */
+
+.button-daftar {
+    width: 90px;
+    height: 33px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 6px;
+}
+
+
+/* Button end */
