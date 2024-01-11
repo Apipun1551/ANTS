@@ -9,3 +9,9 @@ body {
     font-family: 'Lexend', sans-serif;
     background-color: var(---primary);
 }
+
+.nav-link {
+    font-size: 18px;
+    color: white!important;
+    font-weight: 400;
+}
