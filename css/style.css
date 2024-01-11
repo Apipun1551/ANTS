@@ -1,3 +1,10 @@
+:root {
+    ---primary: #3C54A3;
+    ---secondary: #F8E306;
+    ---darkblue: #04071C;
+    ---black: #0B0B0B;
+}
+
 body {
     font-family: 'Lexend', sans-serif;
     background-color: var(---primary);
