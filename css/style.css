@@ -53,3 +53,21 @@ body {
 
 
 /* Button end */
+
+
+/* Hero */
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(180deg, #3C54A3 0%, #000C34 100%);
+}
+
+.hero-img {
+    width: 610px;
+    height: 598px;
+    flex-shrink: 0;
+}
+
+
+/* Hero End */
