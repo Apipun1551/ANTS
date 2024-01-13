@@ -59,21 +59,21 @@ body {
 /* Hero */
 
 #hero {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background: linear-gradient(180deg, #3C54A3 0%, #000C34 100%);
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .hero-img {
-    width: 580px;
-    height: 550px;
+    width: 480px;
+    height: 450px;
     flex-shrink: 0;
 }
 
 .hero-text h1 {
     color: var(--White);
-    font-size: 52px;
+    font-size: 38px;
     font-weight: 800;
     line-height: normal;
 }
@@ -93,10 +93,10 @@ body {
 
 .hero-text p {
     color: var(--White);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: normal;
-    width: 60%;
+    width: 68%;
 }
 
 .yellow2 {
@@ -139,6 +139,7 @@ footer h3 {
 
 footer img {
     margin-right: 15px;
+    height: 24px;
 }
 
 footer p {
@@ -150,10 +151,6 @@ footer p {
 footer a {
     color: var(--White);
     text-decoration: none;
-}
-
-.kontak {
-    padding-left: 100px;
 }
 
 
