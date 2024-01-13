@@ -69,5 +69,30 @@ body {
     flex-shrink: 0;
 }
 
+.hero-text h1 {
+    color: var(--White, #FFF);
+    font-weight: 800;
+    line-height: normal;
+}
+
+#yellow {
+    color: var(--Secondary, #F8E306);
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hero-text h3 {
+    color: var(--White, #FFF);
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero-text p {
+    color: var(--White, #FFF);
+    font-weight: 500;
+    line-height: normal;
+    width: 55%;
+}
+
 
 /* Hero End */
