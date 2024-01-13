@@ -88,13 +88,19 @@ body {
     color: var(--White);
     font-weight: 500;
     line-height: normal;
+    margin: 31px 0px;
 }
 
 .hero-text p {
     color: var(--White);
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 400;
     line-height: normal;
-    width: 55%;
+    width: 60%;
+}
+
+.yellow2 {
+    color: var(--Secondary);
 }
 
 .button-lg {
