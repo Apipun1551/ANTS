@@ -1,13 +1,14 @@
 :root {
-    ---primary: #3C54A3;
-    ---secondary: #F8E306;
-    ---darkblue: #04071C;
-    ---black: #0B0B0B;
+    --Primary: #3C54A3;
+    --Secondary: #F8E306;
+    --Darkblue: #04071C;
+    --Black: #0B0B0B;
+    --White: #fff;
 }
 
 body {
     font-family: 'Lexend', sans-serif;
-    background-color: var(---primary);
+    background-color: var(--Primary);
 }
 
 
@@ -46,7 +47,7 @@ body {
     height: 33px;
     border: none;
     border-radius: 5px;
-    background-color: var(---secondary);
+    background-color: var(--Secondary);
     font-size: 18px;
     font-weight: 700;
 }
@@ -70,28 +71,44 @@ body {
 }
 
 .hero-text h1 {
-    color: var(--White, #FFF);
+    color: var(--White);
     font-weight: 800;
     line-height: normal;
 }
 
 #yellow {
-    color: var(--Secondary, #F8E306);
+    color: var(--Secondary);
     font-weight: 800;
     line-height: normal;
 }
 
 .hero-text h3 {
-    color: var(--White, #FFF);
+    color: var(--White);
     font-weight: 500;
     line-height: normal;
 }
 
 .hero-text p {
-    color: var(--White, #FFF);
+    color: var(--White);
     font-weight: 500;
     line-height: normal;
     width: 55%;
+}
+
+.button-lg {
+    width: 255px;
+    height: 65px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 15px;
+    background: var(--Secondary);
+    color: var(--Black);
+    text-align: center;
+    font-family: Lexend;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 
